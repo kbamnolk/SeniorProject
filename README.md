@@ -5,12 +5,6 @@ Edgar Berber - e_berber@u.pacific.edu
 Michael Runyon - m_runyon@u.pacific.edu
 
 Karen Bamnolker - k_bamnolker@u.pacific.edu
-
-Create a read me file in your repository that describes the project.
-  This document should include project title,  name and email for all team members
-  Project description
-  Project components
-  Special notes as needed (this may be added to throughout the semester)
  
  # About
 If you’ve ever tried to communicate with someone who only spoke a foreign language, you know that it can be extremely difficult.We decided to work on a translator that not only supports voice recognition and native speaker playback, but is also capable of translating between thousands of language pairs. It leverages Raspberry PI, free translation APIs, and some open source software.
