@@ -21,6 +21,7 @@ Hardware:
 Software:
 	Google Cloud Translation API
 	Google Speech-to-Text API
+	Google Text-to-Speech API
 	Python
 	Bash Scripts
 
