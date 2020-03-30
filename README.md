@@ -19,7 +19,7 @@ Hardware:
 	Power supply
 
 Software:
-	Google Cloud Translation API
+	Google Text-to-Text API
 	Google Speech-to-Text API
 	Google Text-to-Speech API
 	Python
