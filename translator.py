@@ -2,6 +2,8 @@ import argparse
 import six
 from google.cloud import texttospeech
 from google.cloud import translate_v2 as translate
+import pygame
+
 #!/usr/bin/env python3
 # Requires PyAudio and PySpeech.
 #import speech_recognition as sr
@@ -75,5 +77,13 @@ def text_to_speech(input_text):
 	    out.write(response.audio_content)
 	    print('Audio content written to file "output.mp3"')
 
+def play_audio():
+	pygame.mixer.init()
+	pygame.mixer.music.load("output.mp3")
+	pygame.mixer.music.play()
+	while pygame.mixer.music.get_busy() == True:
+		continue
 translated_text = text_to_text()
 text_to_speech(translated_text)
+play_audio()
+
