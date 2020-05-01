@@ -11,7 +11,7 @@ If you’ve ever tried to communicate with someone who only spoke a foreign lang
  
  # Components
 Hardware: 
-	2 Headsets
+	1 USB Headset
 	Raspberry Pi starter kit
 	1-4GB of RAM in test systems
 	32GB MicroSD card
